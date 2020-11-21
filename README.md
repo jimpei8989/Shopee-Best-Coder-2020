@@ -58,8 +58,8 @@ Inspired by *Huffman Encoding*, we came up with the greedy process below.
 ### Final Decision
 For every order, let *n* be the number of goods in that product (the products whose quantity is larger than 1 are aggregated beforehand).
 
-1. If $n = 1$, we apply the baseline method.
-2. If $2 \le n \le 4$, we apply the brute-force approach.
+1. If *n = 1*, we apply the baseline method.
+2. If *2 ≤ n ≤ 4*, we apply the brute-force approach.
 3. For the rest cases, we apply the last greedy approach (the *Huffman* one).
 
 With this hybrid method, we achieved **0.84440** on public set / **0.84406** on private set.
